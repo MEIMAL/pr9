@@ -48,5 +48,6 @@ def lottery_app():
     matches = set(user_numbers) & set(random_numbers)
     print("Совпадения:", matches)
     print("Количество совпадений:", len(matches))
+    
 # Запуск приложения
 lottery_app()
