@@ -5,6 +5,7 @@ def is_number(s):
         return True
     except ValueError:
         return False
+    
 # Ввод чисел a и b с проверкой на корректность
 while True:
     a_input = input("Введите число a: ")
